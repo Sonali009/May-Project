@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 2.232 s <<< FAILURE! - in TestSuite
+setup(com.qa.opencart.base.BaseTest)  Time elapsed: 0.826 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:34)
+

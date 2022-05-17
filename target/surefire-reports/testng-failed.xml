@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.qa.opencart.tests.ProductInfoPageTest">
+        <methods>
+          <include name="productinfodatatest"/>
+          <include name="setup"/>
+          <include name="AccSetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
+      <class name="com.qa.opencart.tests.RegistrationPageTest">
+        <methods>
+          <include name="userRegistrationTest"/>
+          <include name="setUpRegister"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.RegistrationPageTest -->
+      <class name="com.qa.opencart.tests.AccountsPageTests">
+        <methods>
+          <include name="AccPageTitleTest"/>
+          <include name="setup"/>
+          <include name="AccSetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.AccountsPageTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

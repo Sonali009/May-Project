@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="3" name="Login Page Test(failed)">
+    <classes>
+      <class name="com.qa.opencart.tests.ProductInfoPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="productinfodatatest"/>
+          <include name="AccSetUp"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+  <test thread-count="3" name="Accounts Page Test(failed)">
+    <classes>
+      <class name="com.qa.opencart.tests.AccountsPageTests">
+        <methods>
+          <include name="accPageHeaderTest"/>
+          <include name="setup"/>
+          <include name="AccPageTitleTest"/>
+          <include name="AccSetUp"/>
+          <include name="accpagesectionsTest"/>
+          <include name="accPageSectionsCountTest"/>
+          <include name="selectproducttest"/>
+          <include name="searchTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.AccountsPageTests -->
+    </classes>
+  </test> <!-- Accounts Page Test(failed) -->
+  <test thread-count="3" name="ProductInfo Page Test(failed)">
+    <classes>
+      <class name="com.qa.opencart.tests.ProductInfoPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="productinfodatatest"/>
+          <include name="AccSetUp"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
+    </classes>
+  </test> <!-- ProductInfo Page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
